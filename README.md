@@ -1,97 +1,79 @@
 # ☕ Starbucks Sales Analysis Dashboard
 
-An interactive **Power BI dashboard** built to analyze sales performance, customer behavior, and time-based ordering patterns.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Analytics-blue)
+![Sales Analytics](https://img.shields.io/badge/Domain-Sales-success)
+![Status](https://img.shields.io/badge/Project-Completed-success)
 
----
+An interactive **Power BI dashboard** built to analyze Starbucks sales performance, customer behavior, and time-based ordering trends through data-driven visualizations and KPI analysis.
 
 ## 📊 Overview
 
-This project explores Starbucks sales data to uncover **when customers buy, how revenue flows throughout the day, and what drives order volume**.
-The dashboard is designed with a focus on **clarity, interactivity, and business-relevant insights**.
+This project explores Starbucks sales data to uncover:
+- When customers buy the most
+- How revenue flows throughout the day
+- What drives order volume and sales performance
 
----
+The dashboard is designed with a strong focus on clarity, interactivity, and business-oriented insights.
 
 ## 🎯 Objectives
 
-* Identify peak hours of customer activity
-* Analyze hourly revenue and order trends
-* Track key performance indicators (Orders, Customers, Revenue, Quantity)
-* Provide detailed transaction-level visibility
-
----
-
-## 🛠️ Tech Stack
-
-* **Power BI** (Dashboard & Visualization)
-* **DAX** (Measures & Calculations)
-* **Data Modeling**
-* **Data Cleaning & Transformation**
-
----
+- Identify peak customer activity hours
+- Analyze hourly revenue and order trends
+- Track key KPIs (Orders, Customers, Revenue, Quantity)
+- Provide transaction-level sales visibility
+- Explore patterns in customer purchasing behavior
 
 ## 📈 Key Insights
 
-* 🕘 **Morning to midday drives maximum sales volume**
-* 📉 Noticeable drop in activity during late hours
-* 📊 Revenue closely follows order count patterns
-* 🔗 Strong correlation between quantity sold and total revenue
-
----
+- 🕘 Morning to midday generates the highest sales volume
+- 📉 Customer activity significantly drops during late hours
+- 📊 Revenue closely follows order count trends
+- 🔗 Quantity sold shows strong correlation with revenue growth
 
 ## 🧭 Dashboard Structure
 
-The dashboard is divided into three intuitive sections:
-
-* **Index** → Entry navigation page
-* **Overview** → KPI metrics & hourly analysis
-* **Details** → Transaction-level data exploration
-
----
-
-## 🖼️ Preview
-
 ### Index
+Navigation landing page for dashboard access
 
 ![Index](images/index.png)
 
 ### Overview
+KPI metrics, revenue insights, and hourly analysis
 
 ![Overview](images/overview.png)
 
 ### Details
+Transaction-level exploration and detailed order insights
 
 ![Details](images/details.png)
 
----
+## 🛠️ Tools & Technologies
+
+- Power BI
+- DAX (Data Analysis Expressions)
+- Data Modeling
+- Data Cleaning & Transformation
+
+## 🚀 Features
+
+- Interactive dashboard navigation
+- Hourly sales and order trend analysis
+- KPI monitoring and business insights
+- Transaction-level data exploration
+- Dynamic visual filtering
 
 ## 📁 Project Structure
 
 ```bash
-starbucks-sales-analysis-powerbi/
-├── data/
+📦 starbucks-sales-analysis-powerbi
 ├── dashboard/
+│   └── Starbucks_Sales_Dashboard.pbix
+├── data/
+│   └── dataset.xlsx
 ├── images/
+│   ├── index.png
+│   ├── overview.png
+│   └── details.png
 └── README.md
-```
-
----
-
-## ▶️ How to Use
-
-1. Open the `.pbix` file in Power BI Desktop
-2. Navigate using built-in page buttons
-3. Interact with visuals to explore trends
-
----
-
-## 🚀 Scope for Enhancement
-
-* Add store/location-level analysis
-* Introduce advanced KPIs (growth rate, segmentation)
-* Deploy to Power BI Service for live access
-
----
-
-## 👨‍💻 About
-
-Built as part of a hands-on data analytics journey focused on transforming raw data into actionable insights.
